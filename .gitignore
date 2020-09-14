@@ -24,3 +24,7 @@ hs_err_pid*
 
 # macOS system generated files
 .DS_Store
+
+# IDEA Files
+.idea/
+github-discussion-api.iml
