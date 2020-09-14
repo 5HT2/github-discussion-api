@@ -2,10 +2,10 @@ package `github-discussion-api`.issue
 
 data class Issue(
     var active_lock_reason: Any? = null,
-    var assignee: Any? = null,
-    var assignees: List<Any> = listOf(),
+    var assignee: User? = User(),
+    var assignees: List<User>? = listOf(),
     var author_association: String = "",
-    var body: String = "",
+    var body: String? = "",
     var closed_at: Any? = null,
     var closed_by: Any? = null,
     var comments: Int = 0,
