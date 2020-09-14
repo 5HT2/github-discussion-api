@@ -1,4 +1,4 @@
-package issue
+package `github-discussion-api`.issue
 
 data class Label(
     var color: String = "",

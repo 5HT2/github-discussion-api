@@ -1,4 +1,4 @@
-package issue
+package `github-discussion-api`.issue
 
 data class PullRequest(
     var diff_url: String = "",

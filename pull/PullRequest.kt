@@ -1,4 +1,4 @@
-package pull
+package `github-discussion-api`.pull
 
 data class PullRequest(
     var _links: Links = Links(),

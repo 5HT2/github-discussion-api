@@ -1,4 +1,4 @@
-package issue
+package `github-discussion-api`.issue
 
 data class Issue(
     var active_lock_reason: Any? = null,

@@ -1,4 +1,4 @@
-package pull
+package `github-discussion-api`.pull
 
 data class Milestone(
     var closed_at: Any? = null,

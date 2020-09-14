@@ -1,4 +1,4 @@
-package issue
+package `github-discussion-api`.issue
 
 data class Milestone(
     var closed_at: Any? = null,

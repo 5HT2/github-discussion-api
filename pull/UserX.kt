@@ -1,4 +1,4 @@
-package pull
+package `github-discussion-api`.pull
 
 data class UserX(
     var avatar_url: String = "",
