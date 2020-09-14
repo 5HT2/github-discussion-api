@@ -1,2 +1,2 @@
 # github-discussion-api
-A Kotlin API for GitHub issues and org.kamiblue.api.pull requests
+A Kotlin API for GitHub issues and pull requests
