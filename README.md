@@ -1,2 +1,3 @@
 # github-discussion-api
-A Kotlin API for GitHub issues and pull requests
+ Kotlin data classes for Github requests 
+ 
