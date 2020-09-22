@@ -1,4 +1,4 @@
-package org.kamiblue.api.pull
+package org.l1ving.api.pull
 
 data class Owner(
     var avatar_url: String = "",

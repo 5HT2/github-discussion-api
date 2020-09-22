@@ -1,4 +1,4 @@
-package org.kamiblue.api.issue
+package org.l1ving.api.issue
 
 data class Milestone(
     var closed_at: Any? = null,

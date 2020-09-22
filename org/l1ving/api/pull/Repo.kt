@@ -1,4 +1,4 @@
-package org.kamiblue.api.pull
+package org.l1ving.api.pull
 
 data class Repo(
     var archive_url: String = "",
