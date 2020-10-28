@@ -1,11 +1,11 @@
 package org.l1ving.api.issue
 
 data class Label(
-        var color: String?,
-        var default: Boolean?,
-        var description: String?,
-        var id: Long?,
-        var name: String?,
-        var node_id: String?,
-        var url: String?
+        var color: String? = null,
+        var default: Boolean? = null,
+        var description: String? = null,
+        var id: Long? = null,
+        var name: String? = null,
+        var node_id: String? = null,
+        var url: String? = null
 )
