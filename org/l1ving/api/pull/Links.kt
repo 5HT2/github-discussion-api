@@ -1,12 +1,12 @@
 package org.l1ving.api.pull
 
 data class Links(
-    var comments: Comments = Comments(),
-    var commits: Commits = Commits(),
-    var html: Html = Html(),
-    var issue: Issue = Issue(),
-    var review_comment: ReviewComment = ReviewComment(),
-    var review_comments: ReviewComments = ReviewComments(),
-    var self: Self = Self(),
-    var statuses: Statuses = Statuses()
+    var comments: Comments?,
+    var commits: Commits?,
+    var html: Html?,
+    var issue: Issue?,
+    var review_comment: ReviewComment?,
+    var review_comments: ReviewComments?,
+    var self: Self?,
+    var statuses: Statuses?
 )

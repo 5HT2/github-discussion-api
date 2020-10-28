@@ -1,14 +1,14 @@
 package org.l1ving.api.commit
 
 data class Commit(
-    val author: Author? = null,
-    val committer: Committer? = null,
-    val html_url: String? = null,
-    val message: String? = null,
-    val node_id: String? = null,
-    val parents: List<Parent>? = null,
-    val sha: String? = null,
-    val tree: Tree? = null,
-    val url: String? = null,
-    val verification: Verification? = null
+    val author: Author?,
+    val committer: Committer?,
+    val html_url: String?,
+    val message: String?,
+    val node_id: String?,
+    val parents: List<Parent>?,
+    val sha: String?,
+    val tree: Tree?,
+    val url: String?,
+    val verification: Verification?
 )
