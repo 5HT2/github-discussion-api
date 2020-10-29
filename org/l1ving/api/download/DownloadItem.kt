@@ -1,7 +1,7 @@
 package org.l1ving.api.download
 
 data class DownloadItem(
-        var assets: List<Asset>? = null,
+        var assets: List<Asset> = listOf(),
         var assets_url: String? = null,
         var author: Author? = null,
         var body: String? = null,

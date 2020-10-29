@@ -4,7 +4,7 @@ data class Asset(
         var browser_download_url: String? = null,
         var content_type: String? = null,
         var created_at: String? = null,
-        var download_count: Int? = null,
+        var download_count: Int = 0,
         var id: Int? = null,
         var label: Any? = null,
         var name: String? = null,
