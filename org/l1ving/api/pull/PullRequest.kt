@@ -29,7 +29,7 @@ data class PullRequest(
         var merge_commit_sha: String? = null,
         var mergeable: Boolean? = null,
         var mergeable_state: String? = null,
-        var merged: Boolean? = null,
+        var merged: Boolean = false,
         var merged_at: Any? = null,
         var merged_by: Any? = null,
         var milestone: Milestone? = null,
