@@ -1,17 +1,17 @@
 package org.l1ving.api.download
 
 data class Asset(
-        var browser_download_url: String? = null,
-        var content_type: String? = null,
-        var created_at: String? = null,
-        var download_count: Int = 0,
-        var id: Int? = null,
-        var label: Any? = null,
-        var name: String? = null,
-        var node_id: String? = null,
-        var size: Int? = null,
-        var state: String? = null,
-        var updated_at: String? = null,
-        var uploader: Uploader? = null,
-        var url: String? = null
+        val browser_download_url: String? = null,
+        val content_type: String? = null,
+        val created_at: String? = null,
+        val download_count: Int = 0,
+        val id: Int? = null,
+        val label: Any? = null,
+        val name: String? = null,
+        val node_id: String? = null,
+        val size: Int? = null,
+        val state: String? = null,
+        val updated_at: String? = null,
+        val uploader: Uploader? = null,
+        val url: String? = null
 )

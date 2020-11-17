@@ -1,20 +1,20 @@
 package org.l1ving.api.pull
 
 data class Milestone(
-        var closed_at: Any? = null,
-        var closed_issues: Int? = null,
-        var created_at: String? = null,
-        var creator: Creator? = null,
-        var description: String? = null,
-        var due_on: Any? = null,
-        var html_url: String? = null,
-        var id: Long? = null,
-        var labels_url: String? = null,
-        var node_id: String? = null,
-        var number: Int? = null,
-        var open_issues: Int? = null,
-        var state: String? = null,
-        var title: String? = null,
-        var updated_at: String? = null,
-        var url: String? = null
+        val closed_at: Any? = null,
+        val closed_issues: Int? = null,
+        val created_at: String? = null,
+        val creator: Creator? = null,
+        val description: String? = null,
+        val due_on: Any? = null,
+        val html_url: String? = null,
+        val id: Long? = null,
+        val labels_url: String? = null,
+        val node_id: String? = null,
+        val number: Int? = null,
+        val open_issues: Int? = null,
+        val state: String? = null,
+        val title: String? = null,
+        val updated_at: String? = null,
+        val url: String? = null
 )
